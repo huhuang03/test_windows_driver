@@ -4,6 +4,6 @@
 #include <wdm.h>
 
 NTSTATUS DriverEntry(void* a, void* b) {
-  DbgPrint("Hello from th driver!");
+  DbgPrint("Hello from th driver!!!!!!");
   return STATUS_SUCCESS;
 }
